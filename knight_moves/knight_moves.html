@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edg'e>
+    <title>Knight moves</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport'
+    content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='knight_moves.css' />
+</head>
+
+<body>
+    <form class='form'>
+            <div class="form_input">
+                <label for='initial_position'> Введите исходное положение</label>
+                <input type='text' id='initial_position' name='initial_position'/>
+                <input type='button' id='submit' value='Ok'>  
+
+                <div class="form_result">
+                    <h2 class="discription">Возможные варианты хода:</h2>
+                    <div id="result"></div>
+                    <input type="reset" id='reset_button' value="Ok">
+                </div> 
+            </div>
+    </form>
+<script src='knight_moves.js'></script>
+</body>
+</html>

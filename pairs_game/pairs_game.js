@@ -32,6 +32,9 @@ cell[i].style.backgroundColor = 'white';
 
 
 //to do draw the cards
+
+const colors = ['red', 'green', 'orange', 'purple', 'blue', 'pink', 'lightblue', 'lightgreen'];
+
 //to do make the start button
 //shuffling cards
 //make the counter
